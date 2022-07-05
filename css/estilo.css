@@ -4,6 +4,12 @@ header {
 	font-display: flex;
 }
 
+.container-fluid {
+	display: flex;
+	background-color: lightgreen;
+	opacity: 85%;
+
+}
 .contenedor{
 	width: 90%;
 	max-width: 1200px;
@@ -15,12 +21,39 @@ header {
 
 *{
 	box-sizing: border-box;
+
 }
+
+.viewport {
+	background-color: steelblue;
+}
+
 .flex-container{
 	display: flex;
 	background-color: steelblue;
 	padding: 2px;
 	border: 5px solid lightgreen;
+}
+
+.texto{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.footer {
+	padding: 30px;
+	margin: 0px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	border: 1px solid lightgreen;
+	background-color: steelblue;
+}
+.Redes_Sociales {
+	padding: 20px;
+	margin: 20px;
+	font-size: 50px;
 }
 
 .flex-container div{
@@ -47,6 +80,17 @@ nav {
 
 }
 
+section {
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
 .ul{
 	height: 15vh;
 	color: orangered;
@@ -63,15 +107,20 @@ h2{
 }
 
 h3{
+	margin: 50px;
+	padding: 30px;
 	color: brown;
+	text-align: center;
+
 }
 
 h4{
 	color: darkgreen;
+
 }
 
 p{
-	color: tomato;
+	color: whitesmoke;
 }
 
 main{
@@ -84,6 +133,7 @@ header{
 
 ul{
 	margin: 0;
+	padding: 0;
 	width: 1200px;
 	margin: 1px;
 	opacity: 100%;
